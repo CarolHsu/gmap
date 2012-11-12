@@ -95,6 +95,7 @@ function category2color(category) {
 gicons["scene"] = getMarkerImage(category2color("scene"));
 gicons["restaurent"] = getMarkerImage(category2color("restaurent"));
 gicons["hotel"] = getMarkerImage(category2color("hotel"));
+gicons["station"] = getMarkerImage(category2color("station"));
 
 // A function to create the marker and set up the event window
 function createMarker(latlng,name,html,category) {
@@ -179,8 +180,8 @@ function calcRoute() {
 		markerArray[i].setMap(null);
 	}
 
-	//var selectedMode = document.getElementById("mode").value;
-  var selectedMode = "DRIVING";
+	var selectedMode = document.getElementById("mode").value;
+  // var selectedMode = "DRIVING";
 	start = document.getElementById('start').value;
   if(end == null){
     end = document.getElementById("end").value;

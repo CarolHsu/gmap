@@ -77,13 +77,13 @@
                   <span class="add-on span3">目的地</span>
                   <input type="text" id="end" placeholder="請輸入目的地" class="input-medium" />
                 </div>
-                <!--
+                
                 <select id="mode" onchange="calcRoute()" class="input-small inline">
                   <option value="DRIVING">開車前往</option>
-                  <option value="TRANSIT">搭乘大眾運輸工具</option>
+                  <option value="TRANSIT">大眾運輸</option>
                   <option value="WALKING">步行前往</option>
                 </select>
-                -->
+                
                 <input type="button" class="btn btn-primary span10" id="enter" value="開始導航！" onclick="calcRoute()"/>
               </div>
             </form>
@@ -107,6 +107,10 @@
             <label class="span2">
               <input class="checkbox" type="checkbox" id="hotelbox" onclick="boxclick(this,'hotel')" />
               <img src="mapIcons/marker_yellow.png" />住宿
+            </label>
+            <label class="span2">
+              <input class="checkbox" type="checkbox" id="hotelbox" onclick="boxclick(this,'station')" />
+              <img src="mapIcons/marker_red.png" />交通場站
             </label>
           </form>  
         </div>
