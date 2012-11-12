@@ -1,0 +1,53 @@
+body {
+  font-family: Verdana, "Microsoft JhengHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #333333;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+html{
+  height: 80%;
+}
+
+#main.container-fluid,.row-fluid,.span9{
+  height: 100%;
+}
+
+#map{
+  height: 95%;
+  width: 95%;
+}
+
+#map img {
+  max-width: none;
+}
+
+#direction-info{
+  font-size: smaller;
+}
+
+td.adp-text{
+  padding-left: 23px;
+}
+
+.context_menu{
+  background-color:white;
+  border:1px solid gray;
+}
+.context_menu_item{
+  padding:3px 6px;
+}
+.context_menu_item:hover{
+  background-color:#CCCCCC;
+}
+.context_menu_separator{
+  background-color:gray;
+  height:1px;
+  margin:0;
+  padding:0;
+}
+#clearDirectionsItem, #getDirectionsItem{
+  display:none;
+}
