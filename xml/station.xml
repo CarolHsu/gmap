@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="restinfo.xsd" generated="2012-09-21T12:51:06">
+<stationinfo>
+	<listname>1</listname>
+	<language>C</language>
+	<Id></Id>
+	<orgname></orgname>
+	<updatetime>2012/11/12 12:40:40</updatetime>
+	<Name>桃園火車站</Name>
+	<Description>桃園車站位於台灣桃園縣桃園市，為臺灣鐵路管理局縱貫線、林口線的鐵路車站，旅客進出人次為全國第二名，僅次於台北車站，每日往返台北通勤旅客流量極大。桃園捷運綠線、棕線亦計畫與本站共構。</Description>
+	<Add>桃園縣桃園市桃園車站</Add>
+	<Zipcode></Zipcode>
+	<Opentime></Opentime>
+	<Website>http://twtraffic.tra.gov.tw/twrail/</Website>
+	<Picture1></Picture1>
+	<Picdescribe1>桃園火車站</Picdescribe1>
+	<Class></Class>
+	<Px>121.31355</Px>
+	<Py>24.98981</Py>
+</stationinfo>
+
+<stationinfo>
+	<listname>2</listname>
+	<language>C</language>
+	<Id></Id>
+	<orgname></orgname>
+	<updatetime>2012/11/12 12:40:40</updatetime>
+	<Name>內壢火車站</Name>
+	<Description>內壢車站位於台灣桃園縣中壢市，為臺灣鐵路管理局縱貫線的鐵路車站。</Description>
+	<Add>桃園縣中壢市內壢車站</Add>
+	<Zipcode></Zipcode>
+	<Opentime></Opentime>
+	<Website>http://twtraffic.tra.gov.tw/twrail/</Website>
+	<Picture1></Picture1>
+	<Picdescribe1>內壢火車站</Picdescribe1>
+	<Class></Class>
+	<Px>121.25831</Px>
+	<Py>24.97322</Py>
+</stationinfo>
+
+<stationinfo>
+	<listname>3</listname>
+	<language>C</language>
+	<Id></Id>
+	<orgname></orgname>
+	<updatetime>2012/11/12 12:40:40</updatetime>
+	<Name>中壢火車站</Name>
+	<Description>中壢車站位於台灣桃園縣中壢市，為臺灣鐵路管理局縱貫線的鐵路車站。2011年中壢車站進出人次排名為全國第三位，僅次於台北車站、桃園車站，營收則是排名第七位（台北／花蓮／高雄／台中／台南／新竹／中壢）。未來將與桃園捷運藍線的營運路線雙鐵共構[2]，形成桃園縣的軌道運輸轉乘車站之一。</Description>
+	<Add>桃園縣中壢市中壢車站</Add>
+	<Zipcode></Zipcode>
+	<Opentime></Opentime>
+	<Website>http://twtraffic.tra.gov.tw/twrail/</Website>
+	<Picture1></Picture1>
+	<Picdescribe1>中壢火車站</Picdescribe1>
+	<Class></Class>
+	<Px>121.22585</Px>
+	<Py>24.95394</Py>
+</stationinfo>
+
+<stationinfo>
+	<listname>4</listname>
+	<language>C</language>
+	<Id></Id>
+	<orgname></orgname>
+	<updatetime>2012/11/12 12:40:40</updatetime>
+	<Name>埔心火車站</Name>
+	<Description>埔心車站位於台灣桃園縣楊梅市，為臺灣鐵路管理局縱貫線的鐵路車站。本站出入口位於省道台1線上，此段的台1線屬楊梅市永美路，車站內以人行天橋連接月台，並設置電梯，方便殘障人士進出車站。1900至1955年間，曾稱為「平鎮車站」。</Description>
+	<Add>桃園縣楊梅市埔心車站</Add>
+	<Zipcode></Zipcode>
+	<Opentime></Opentime>
+	<Website>http://twtraffic.tra.gov.tw/twrail/</Website>
+	<Picture1></Picture1>
+	<Picdescribe1>埔心火車站</Picdescribe1>
+	<Class></Class>
+	<Px>121.18366</Px>
+	<Py>24.91978</Py>
+</stationinfo>
+
+<stationinfo>
+	<listname>5</listname>
+	<language>C</language>
+	<Id></Id>
+	<orgname></orgname>
+	<updatetime>2012/11/12 12:40:40</updatetime>
+	<Name>楊梅火車站</Name>
+	<Description>楊梅車站位於台灣桃園縣楊梅市，為臺灣鐵路管理局縱貫線的鐵路車站。因舊站房已不敷使用，且為配合台鐵捷運化政策，台鐵斥資一億四千多萬，將舊站房改建為跨站式站房。因楊梅鎮改制縣轄市及新站房啟用，台鐵營運處表示，楊梅站近期可望由三等站升格為二等站。</Description>
+	<Add>桃園縣楊梅市楊梅車站</Add>
+	<Zipcode></Zipcode>
+	<Opentime></Opentime>
+	<Website>http://twtraffic.tra.gov.tw/twrail/</Website>
+	<Picture1></Picture1>
+	<Picdescribe1>楊梅火車站</Picdescribe1>
+	<Class></Class>
+	<Px>121.14603</Px>
+	<Py>24.91440</Py>
+</stationinfo>
+
+<stationinfo>
+	<listname>6</listname>
+	<language>C</language>
+	<Id></Id>
+	<orgname></orgname>
+	<updatetime>2012/11/12 12:40:40</updatetime>
+	<Name>富岡火車站</Name>
+	<Description>富岡車站位於台灣桃園縣楊梅市，為臺灣鐵路管理局縱貫線的鐵路車站。</Description>
+	<Add>桃園縣楊梅市富岡車站</Add>
+	<Zipcode></Zipcode>
+	<Opentime></Opentime>
+	<Website>http://twtraffic.tra.gov.tw/twrail/</Website>
+	<Picture1></Picture1>
+	<Picdescribe1>富岡火車站</Picdescribe1>
+	<Class></Class>
+	<Px>121.08309</Px>
+	<Py>24.93488</Py>
+</stationinfo>
+
+<stationinfo>
+	<listname>7</listname>
+	<language>C</language>
+	<Id></Id>
+	<orgname></orgname>
+	<updatetime>2012/11/12 12:40:40</updatetime>
+	<Name>桃園機場</Name>
+	<Description>臺灣桃園國際機場（IATA代碼：TPE，ICAO代碼：RCTP），正式名稱為桃園國際航空站，簡稱桃園機場、桃園國際機場，位於臺灣西北部的桃園縣大園鄉，為臺北首要的聯外國際機場、與臺灣主要的國際客運出入吞吐地，也是臺灣最大與最繁忙的機場。由於機場只有國際航班，並無經營國內航線，因此以跨境的客運量計算，桃園機場的跨境客流量排名全球第十六名[4]。因世界各國與臺北之間的航線大部分在此起降，各國航空公司的航線及航點圖上經常將之標示為「臺北機場」。1979年2月26日啟用時的名稱為中正國際機場，2006年10月改為現名。管理及營運單位為桃園國際機場股份有限公司。其與臺北市中心有高速公路相連，相距約40公里，聯外捷運系統亦在興建中。</Description>
+	<Add>桃園縣大園鄉航站南路9號</Add>
+	<Zipcode></Zipcode>
+	<Opentime></Opentime>
+	<Website>http://twtraffic.tra.gov.tw/twrail/</Website>
+	<Picture1></Picture1>
+	<Picdescribe1>桃園機場</Picdescribe1>
+	<Class></Class>
+	<Px>121.2242</Px>
+	<Py>25.0795</Py>
+</stationinfo>
+
+</dataroot>

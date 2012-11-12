@@ -86,6 +86,8 @@ function category2color(category) {
 		break;
 		case "hotel":    color = "yellow";
 		break;
+    case "station":    color = "red";
+    break;
 		default:   color = "red";
 		break;
 	}
@@ -501,6 +503,7 @@ function initialize() {
     show("scene");
     hide("restaurent");
     hide("hotel");
+    hide("station");
     // == create the initial sidebar ==
     //makeSidebar();
   });
@@ -554,6 +557,7 @@ function initialize() {
     show("scene");
     hide("restaurent");
     hide("hotel");
+    hide("station");
     // == create the initial sidebar ==
     //makeSidebar();
   });
@@ -599,9 +603,64 @@ function initialize() {
 		show("scene");
 		hide("restaurent");
 		hide("hotel");
+    hide("station");
 		// == create the initial sidebar ==
 		//makeSidebar();
 	});
+
+  downloadUrl("xml/station.xml", function(doc) {
+    var xml = xmlParse(doc);
+    var markers = xml.documentElement.getElementsByTagName("stationinfo");
+    for (var i = 0; i < markers.length; i++) {
+      var name;
+      for (var j = 0; j < markers[i].childNodes.length; j++) {
+        if(markers[i].childNodes[j].tagName == "Name")
+          if(markers[i].childNodes[j].textContent == undefined)
+            name = markers[i].childNodes[j].firstChild.text;
+          else
+            name = markers[i].childNodes[j].textContent;
+      }
+      var latStr; 
+      for (var j = 0; j < markers[i].childNodes.length; j++) {
+        if(markers[i].childNodes[j].tagName == "Py")
+          if(markers[i].childNodes[j].textContent == undefined)
+            latStr = markers[i].childNodes[j].firstChild.text;
+          else
+            latStr = markers[i].childNodes[j].textContent;
+      }
+      var lngStr; 
+      for (var j = 0; j < markers[i].childNodes.length; j++) {
+        if(markers[i].childNodes[j].tagName == "Px")
+          if(markers[i].childNodes[j].textContent == undefined)
+            lngStr = markers[i].childNodes[j].firstChild.text;
+          else
+            lngStr = markers[i].childNodes[j].textContent;
+      }
+      var lat = parseFloat(latStr);
+      var lng = parseFloat(lngStr);
+      var point = new google.maps.LatLng(lat, lng);
+      var description;
+      for (var j = 0; j < markers[i].childNodes.length; j++) {
+        if(markers[i].childNodes[j].tagName == "Description")
+          if(markers[i].childNodes[j].textContent == undefined)
+            description = markers[i].childNodes[j].firstChild.text;
+          else
+            description = markers[i].childNodes[j].textContent;
+      }
+      var html = "<b>"+name+"<\/b><p>"+description+"<\/p>";
+      var category = "station";
+      // create the marker
+      var marker = createMarker(point,name,html,category);
+    }
+
+    // == show or hide the categories initially ==
+    show("scene");
+    hide("restaurent");
+    hide("hotel");
+    hide("station");
+    // == create the initial sidebar ==
+    //makeSidebar();
+  });
 
 	directionsDisplay.setMap(map);
 	directionsDisplay.setPanel(document.getElementById("direction-panel"));
