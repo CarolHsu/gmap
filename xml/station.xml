@@ -133,4 +133,23 @@
 	<Py>25.0795</Py>
 </stationinfo>
 
+<stationinfo>
+	<listname>8</listname>
+	<language>C</language>
+	<Id></Id>
+	<orgname></orgname>
+	<updatetime>2012/11/12 12:40:40</updatetime>
+	<Name>台灣高鐵桃園站</Name>
+	<Description>高鐵桃園站，俗稱高鐵青埔站，位於台灣桃園縣中壢市青埔，為台灣高速鐵路及桃園捷運藍線（後者興建中）的鐵路車站。</Description>
+	<Add>桃園縣中壢市高鐵北路一段6號</Add>
+	<Zipcode>320</Zipcode>
+	<Opentime>06：20～23：45</Opentime>
+	<Website>http://www.thsrc.com.tw/tc/?lc=tc</Website>
+	<Picture1></Picture1>
+	<Picdescribe1>桃園機場</Picdescribe1>
+	<Class></Class>
+	<Px>121.214862/Px>
+	<Py>25.012993</Py>
+</stationinfo>
+
 </dataroot>
