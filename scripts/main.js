@@ -228,12 +228,12 @@ function attachInstructionText(marker, text){
 function jamRoadWarning(directionResult){
   document.getElementById("warning-panel").innerHTML = "";
   var paths = mappingPaths(directionResult);
-  /*
-  alert(paths.size());
-  for(var i = 0; i < paths.size(); i++){
-    alert(paths.get(i));
-  }
-  */
+  
+  // alert(paths.size());
+  // for(var i = 0; i < paths.size(); i++){
+  //   alert(paths.get(i));
+  // }
+  
   downloadUrl("xml/trafficinfo.xml", function(doc){
     var xml = xmlParse(doc);
     var jamRoads = xml.documentElement.getElementsByTagName("trafficinfoTab");
@@ -302,7 +302,7 @@ function mappingPaths(directionResult){
       var latstr = unsurelatstr.split(".")[0] + "." + unsurelatstr.split(".")[1].substr(0, 4);
       var unsurelngstr = latlngstr.split(",")[1].split(")")[0];
       var lngstr = unsurelngstr.split(".")[0] + "." + unsurelngstr.split(".")[1].substr(0, 4);
-      map.put(count++, latstr+","+lngstr);
+      map.put(count++, latstr+","+lngstr.LTrim());
     }
   }
   return map;
