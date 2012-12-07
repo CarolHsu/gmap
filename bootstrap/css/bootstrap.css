@@ -3266,7 +3266,7 @@ input[type="submit"].btn.btn-mini {
   background-image: -o-linear-gradient(top, rgba(84, 175, 220, 0.2), rgba(28, 146, 208, 1));
   background-image: linear-gradient(to bottom, rgba(84, 175, 220, 0.2), rgba(28, 146, 208, 1));
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(84, 175, 220, 0.2)', endColorstr='rgba(28, 146, 208, 1)', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3354AFDC', endColorstr='#FF1C92D0', GradientType=0);
   border: 1px solid rgba(121,205,205,1);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
